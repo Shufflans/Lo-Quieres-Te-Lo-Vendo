@@ -4,22 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <title>Lo Quieres, Te lo Vendo</title>
 </head>
-<body>
-    <h1>Lo Quieres, Te lo Vendo</h1>
-    <nav>
-        <a href="index.html">Inicio |</a>
-        <a href="contacto.html">Contacto |</a>
-        <a href="#productos">Productos</a>
-    </nav>
-    <section>
-        <p class="section-p">Esta pagina ayuda a centralizar los pedidos y manejar una plantilla 
-            <br> de calculo par los registro de los pedidos y realización de seguimiento </p>
-    </section>
-
-    <footer>
-        <p>Desarrollado por: Nicolas Chauca - Camilo Covarrubias - Gabriel Yañez - Año 2026</p>
+<body class="d-flex flex-column min-vh-100">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary py-3">
+            <div class="container">
+                <a class="navbar-brand fw-bold" href="index.html">Lo Quieres, Te lo Vendo</a>
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link active" href="index.html">Inicio</a>
+                    <a class="nav-link" href="contacto.html">Contacto</a>
+                    <a class="nav-link" href="#productos">Productos</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="container text-center my-5">
+        <h1 class="display-4 fw-bold text-dark">Lo Quieres, Te lo Vendo</h1>
+        
+        <div class="mb-4 mt-4">
+            <img src="assets/empresa.webp" class="img-fluid rounded shadow-sm" style="max-height: 250px;">
+        </div>
+        <p class="lead text-muted mt-3">
+            Esta página ayuda a centralizar los pedidos y manejar una plantilla <br>
+            de cálculo para el registro de los pedidos y realización de seguimiento.
+        </p>
+    </main>
+    <footer class="bg-primary text-white text-center py-3 mt-auto">
+        <p class="mb-0">Desarrollado por: Nicolas Chauca - Camilo Covarrubias - Gabriel Yañez - Año 2026</p>
     </footer>
 </body>
 </html>
